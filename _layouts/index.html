@@ -10,18 +10,20 @@
   </head>
 
   <body>
+    <section class="wrap">
+      <header>
+        {% include header.html %}
+      </header>
 
-    <header>
-      {% include header.html %}
-    </header>
-
-    <section>
-      {{content}}
+      <section class="main">
+        {{content}}
+      </section>
     </section>
 
-    <footer>
-      {% include footer.html %}
-    </footer>
-    
+    <section class="footer">
+      <footer>
+        {% include footer.html %}
+      </footer>
+    </section>
   </body>
 </html>
