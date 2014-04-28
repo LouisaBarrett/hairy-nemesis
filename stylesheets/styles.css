@@ -22,29 +22,35 @@ html, body {
   text-align: center;
 }
 
+.beast-wrap {
+  margin-top: 50px;
+  width: 800px;
+}
+
 #beast_1 {
-  margin: 10px;
   position: absolute;
-  left: 0px;
+  left: -100px;
 }
 
 #beast_2 {
-  margin: 10px;
   position: absolute;
-  left: 331px;
+  left: 230px;
 }
 
 #beast_3 {
-  margin: 10px;
   position: absolute;
-  right: 0px;
+  right: -110px;
 }
 
 .footer {
-  background-color: #D1D1D1;
   clear:both;  /* sticky footer */
   height: 50px; /* sticky footer */
   margin-top: -50px; /* negative value of footer height sticky footer */
   position: relative; /* sticky footer */
   width: 100%;
+
+  color: #d3d3d3;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px
 }
