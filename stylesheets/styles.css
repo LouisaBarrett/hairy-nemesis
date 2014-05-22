@@ -61,7 +61,12 @@ html, body {
   color: #d3d3d3;
   font-family: sans-serif;
   text-transform: uppercase;
-  letter-spacing: 4px
+  letter-spacing: 3px
+}
+
+#link {
+ /*text-decoration: none;*/
+ color: #d3d3d3;
 }
 
 @media (max-width: 750px) { 
