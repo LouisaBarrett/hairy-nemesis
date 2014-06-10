@@ -15,10 +15,7 @@ html, body {
 }
 
 #main_logo {
-  /*margin: 0 auto;*/
   margin-top: 30px;
-  /*padding: 50px 0 15px 0;*/
-  /*position: relative;*/
   text-align: center;
 }
 
@@ -90,7 +87,7 @@ html, body {
   .footer {
     clear:both;  /* sticky footer */
     height: 50px; /* sticky footer */
-    margin-top: 50px; /* negative value of footer height sticky footer */
+    margin-top: -50px; /* negative value of footer height sticky footer */
     position: relative; /* sticky footer */
     width: 100%;
 
