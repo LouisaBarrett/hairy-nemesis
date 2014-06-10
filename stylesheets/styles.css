@@ -9,11 +9,6 @@ html, body {
   min-height: 100%; /* sticky footer */
 }
 
-.main {
-  overflow:auto;
-  padding-bottom: 50px;}  /* must be same height as the footer -- sticky footer */
-}
-
 #main_logo {
   margin-top: 30px;
   text-align: center;
@@ -22,7 +17,7 @@ html, body {
 #beast-wrap {
   height: 370px;
   margin-top: 150px;
-  position: absolute;
+  position: relative;
   width: 100%;
 }
 
@@ -34,6 +29,7 @@ html, body {
 #beast_2 {
   left: 38%;
   position: absolute;
+  z-index: 1;
 }
 
 #beast_3 {
@@ -44,14 +40,13 @@ html, body {
 .footer {
   clear:both;  /* sticky footer */
   height: 50px; /* sticky footer */
-  margin-top: -50px; /* negative value of footer height sticky footer */
-  position: relative; /* sticky footer */
+  margin-top: 50px; /* negative value of footer height sticky footer */
   width: 100%;
 
   color: #d3d3d3;
   font-family: sans-serif;
   text-transform: uppercase;
-  letter-spacing: 3px
+  letter-spacing: 3px;
 }
 
 #link {
@@ -82,18 +77,5 @@ html, body {
     margin-bottom: 100px;
     margin-top: -25px;
     position: relative;
-  }
-
-  .footer {
-    clear:both;  /* sticky footer */
-    height: 50px; /* sticky footer */
-    margin-top: -50px; /* negative value of footer height sticky footer */
-    position: relative; /* sticky footer */
-    width: 100%;
-
-    color: #d3d3d3;
-    font-family: sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 3px
   }
  }
