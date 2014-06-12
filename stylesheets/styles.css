@@ -9,9 +9,21 @@ html, body {
   min-height: 100%; /* sticky footer */
 }
 
-#main_logo {
+.main_logo {
+  height: 195px;
   margin-top: 30px;
+  position: relative;
   text-align: center;
+  width: 100%; 
+}
+
+h1.header-image {
+  background: url("../images/hn-logo.png");
+  height: 100%;
+  left: 27%;
+  position: absolute;
+  text-indent: -9999px;
+  width: 800px; 
 }
 
 #beast-wrap {
@@ -26,34 +38,55 @@ html, body {
   position: absolute;
 }
 
+/*#beast_1:hover {
+  background: url("../images/daisy_dark.png");
+}*/
+
 #beast_2 {
   left: 38%;
   position: absolute;
   z-index: 1;
 }
 
+/*#beast_2:hover {
+  background: url("../images/gus_dark.png");
+}*/
+
+
 #beast_3 {
   left: 65%;
   position: absolute;
 }
 
+/*#beast_3:hover {
+  background: url("../images/tammy_dark.png");
+}
+*/
+
 .footer {
-  clear:both;  /* sticky footer */
+  clear: both;  /* sticky footer */
   height: 50px; /* sticky footer */
   margin-top: 50px; /* negative value of footer height sticky footer */
   width: 100%;
 
   color: #d3d3d3;
   font-family: sans-serif;
-  text-transform: uppercase;
   letter-spacing: 3px;
+  text-transform: uppercase;
 }
 
 #link {
  color: #d3d3d3;
 }
 
-@media (max-width: 750px) { 
+@media (max-width: 750px) {
+
+h1.header-image {
+  background: url("../images/hn-logo-sm.png");
+  height: 135px;
+  left: 37%;
+  width: 135px; 
+}
 
   #beast-wrap {
     height: 1030px;
